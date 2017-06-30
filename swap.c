@@ -4,6 +4,7 @@ void main()
 {
 clrscr();
 int a,b,temp;
+void swap(int x,int y);
 printf("Enter the number for a");
 scanf("%d",&a);
 printf("Enter the number for b");
@@ -13,11 +14,11 @@ printf("a=%d b=%d",a,b);
 swap(a,b);
 getch();
 }
-void swap(int a,int b)
+void swap(int x,int y)
 {
-a=b;
-b=temp;
-temp=b;
+x=y;
+y=temp;
+temp=y;
 printf("The numbers after swap\n);
-printf("a=%d b=%d",a,b);
+printf("a=%d b=%d",x,y);
 }
