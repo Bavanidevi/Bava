@@ -5,7 +5,7 @@ void main()
 clrscr();
 char a1;
 printf("Enter the Number");
-scanf("%c",&a1);
+a1=getchar();
 if(a1=='a'||a=='e'||a=='i'||a=='o'||a=='u')
 {
 printf("Entered character %c is vowel",a1);
